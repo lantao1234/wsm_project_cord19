@@ -11,6 +11,8 @@ from nltk.corpus import stopwords
 import re
 import pandas as pd
 
+"""只需在构架索引时运行一次即可，基于BM25的index"""
+
 '''
 FILES PATH
 '''
