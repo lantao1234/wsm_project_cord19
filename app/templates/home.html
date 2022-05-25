@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <title>WSM Project:Covid-19 Papers Search Engine</title>
+</head>
+
+<body>
+    <div class="container">
+        <div style="font-family: 'Times New Roman'">
+                    
+            <font size="3" style="color:rgb(51,51,250);">
+                Covid-19 related papers search engine
+                <br/>Source: COVID-19 Open Research Dataset (CORD-19). 2020. Version 2020-03-13. Retrieved from https://pages.semanticscholar.org/coronavirus-research. Accessed {{date}}. doi:10.5281/zenodo.3715506
+                <br/>WSM Group Project;(Group: Lantao Wang, Hu chuan, Qiwen Wang)
+                <br/><b>updated: {{date}}</b>
+            </font>
+    
+        </div>
+    </div>
+    
+    <div class="container">
+        <div style="background:transparent !important" class="jumbotron">
+            <div style="font-family: 'Times New Roman'">
+                <p>
+                    <center>
+                        <font size="6" style="color:rgb(51,51,250);"> WSM Project:Covid-19 Papers Search Engine</font>
+                    </center>
+                </p>
+            </div>
+        </div>
+
+        <form action="/search/results" method="post">
+            <div class="input-group">
+                <input type="text" class="form-control input-lg" name="input" placeholder="Search" autofocus>
+                
+                <div class="input-group-btn">
+                    <button class="btn btn-primary btn-lg" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
